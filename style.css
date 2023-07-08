@@ -5,6 +5,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: o 200px;
 
 }
 nav > ul {
@@ -42,6 +43,11 @@ nav a{
   background-color: #FFF8F3;
   background-image: url(images/header_bg.png);
 }
-.bannar .profile-pic{
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
   width: 500px;
 }
