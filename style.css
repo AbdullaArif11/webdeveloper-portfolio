@@ -3,10 +3,13 @@ body{
 }
 nav{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -20,6 +23,11 @@ nav a{
 .button-primary{
   border-radius: 5px;
   background: #FD6E0A;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 35px;
 }
 .text-primary{
   color:#FD6E0A;
@@ -29,4 +37,11 @@ nav a{
   font-size: 45px;
   font-weight: 800;
   line-height: normal;
+}
+.header{
+  background-color: #FFF8F3;
+  background-image: url(images/header_bg.png);
+}
+.bannar .profile-pic{
+  width: 500px;
 }
