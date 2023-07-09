@@ -70,16 +70,29 @@ nav a{
 }
 
 /* mainsection */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .about {
   margin: 130;
   background-color: #FFF8F3;
   width: 1140px;
   height: 550px;
   margin: 130px 0;
+  padding: 130px;
+}
+
+.about-info-container {
+  display:flex;
+  justify-content: space-around;
+}
+
+.about-info{
+  text-align: center;
 }
 
 .section-title {
-  color: #181818l;
   text-align: center;
   font-size: 35px;
   fornt-weight: 700;
